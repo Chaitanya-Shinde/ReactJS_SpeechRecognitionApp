@@ -3,7 +3,7 @@ It accurately detects and transcripts your speech into text.
 You can copy the text directly to your clipboard for your use.
 The website has responsive UI for all general devices
 
-React Speech Recognition 👇
+React Speech Recognition 
 https://www.npmjs.com/package/react-speech-recognition
 
 Check out my github!
