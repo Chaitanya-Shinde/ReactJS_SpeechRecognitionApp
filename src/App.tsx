@@ -40,6 +40,10 @@ function App() {
         
       </div>
       <h2>{isCopied ? "Text copied! 👍" : ""}</h2>
+      <div className='myInfo' >
+        <img className='myImg' src="https://avatars.githubusercontent.com/u/72722989?v=4" alt="Your Image"  />
+        <h3>Check out my <a href='https://github.com/Chaitanya-Shinde' target="_blank">Github Profile!</a></h3>
+      </div>
     </div>
   )
 }

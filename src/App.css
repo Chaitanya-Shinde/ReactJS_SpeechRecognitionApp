@@ -1,8 +1,11 @@
 #root {
   max-width: 100%;
   margin: 0 auto;
-  
   text-align: center;
+}
+body{
+  background-color: '#3A4750';
+  height: fit-content;
 }
 
 h1 {
@@ -45,6 +48,24 @@ h2 {
   font-weight: 500;
   color: whitesmoke;
   font-family:  sans-serif;
+}
+
+.myInfo{
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.myImg{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 500px) {
@@ -102,4 +123,16 @@ h2 {
     font-family:  sans-serif;
   }
   
+  .myInfo{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .myImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
 }
